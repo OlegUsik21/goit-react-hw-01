@@ -1,0 +1,28 @@
+.table {
+  border: 1px, solid, black;
+  margin: 20px auto;
+  width: 500px;
+  height: 250px;
+  border-collapse: collapse;
+}
+
+.head {
+  width: calc(100% / 3);
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.titleItem {
+  color: white;
+}
+
+.body {
+  text-align: center;
+}
+
+.body tr:nth-child(even) {
+  background-color: #d3d3d3;
+}
+
+.item {
+  border: 1px, solid, black;
+}
